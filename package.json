@@ -9,9 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "remix": "^2.15.3",
     "vite": "^6.1.0"
-  },
-  "dependencies": {
-    "remix": "^2.15.3"
   }
 }
