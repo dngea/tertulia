@@ -12,7 +12,7 @@ const DisplayGallery = () => (
       return (
         <img
           key={index}
-          src={`/public/img/${index + 1}.jpg`}
+          src={`/img/${index + 1}.jpg`}
           alt="Image from La Tertulia"
           className="w-full object-cover"
         />
