@@ -100,7 +100,7 @@ export function About() {
         <figure>
           <img
             className="h-full w-full object-cover grayscale-100"
-            src="/img/3.jpg"
+            src="/public/img/3.jpg"
             alt="Interior de La Tertulia en Granada"
           />
         </figure>
@@ -109,7 +109,7 @@ export function About() {
       <figure>
         <img
           className="h-full w-full object-cover p-0"
-          src="/img/5.jpg"
+          src="/public/img/5.jpg"
           alt=""
         />
       </figure>
@@ -121,7 +121,7 @@ export function About() {
         <figure>
           <img
             className="h-full w-full object-cover grayscale-100"
-            src="/img/2.jpg"
+            src="/public/img/2.jpg"
             alt=""
           />
         </figure>
