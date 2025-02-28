@@ -1,0 +1,142 @@
+[
+  {
+    "number_day": 25,
+    "week_day_name": "Martes",
+    "time": "21:00",
+    "title_event": "Sesión de Cine",
+    "description": "Proyección de un clásico del cine independiente.",
+    "price": "Entrada libre",
+    "category": "Cine",
+    "month": "March"
+  },
+  {
+    "number_day": 26,
+    "week_day_name": "Miércoles",
+    "time": "21:00",
+    "title_event": "Jam Session de Jazz",
+    "description": "Músicos invitados improvisando en vivo.",
+    "price": "5€ con consumición",
+    "category": "Música",
+    "month": "March"
+  },
+  {
+    "number_day": 27,
+    "week_day_name": "Jueves",
+    "time": "19:00",
+    "title_event": "Presentación de Libro",
+    "description": "Charla y firma del autor sobre su última novela.",
+    "price": "Entrada libre",
+    "category": "Literatura",
+    "month": "March"
+  },
+  {
+    "number_day": 27,
+    "week_day_name": "Jueves",
+    "time": "21:00",
+    "title_event": "Monólogo de Comedia",
+    "description": "Un show de humor con artistas locales.",
+    "price": "8€ con consumición",
+    "category": "Teatro",
+    "month": "March"
+  },
+  {
+    "number_day": 28,
+    "week_day_name": "Viernes",
+    "time": "21:00",
+    "title_event": "Concierto de Flamenco",
+    "description": "Flamenco fusión con artistas invitados.",
+    "price": "10€ con consumición",
+    "category": "Música",
+    "month": "March"
+  },
+  {
+    "number_day": 1,
+    "week_day_name": "Sábado",
+    "time": "19:00",
+    "title_event": "Exposición de Arte",
+    "description": "Inauguración de la exposición de artistas emergentes.",
+    "price": "Entrada libre",
+    "category": "Arte",
+    "month": "March"
+  },
+  {
+    "number_day": 1,
+    "week_day_name": "Sábado",
+    "time": "21:30",
+    "title_event": "Noche de Tango",
+    "description": "Tango session 'A flor de piel' con Flo Sanmartino.",
+    "price": "6€ con consumición",
+    "category": "Música",
+    "month": "March"
+  },
+  {
+    "number_day": 2,
+    "week_day_name": "Domingo",
+    "time": "21:00",
+    "title_event": "Concierto de Garnata",
+    "description": "Flamenco fusión & world music con José A. Rodríguez y Pepe Agudo.",
+    "price": "7€ con consumición",
+    "category": "Música",
+    "month": "March"
+  },
+  {
+    "number_day": 5,
+    "week_day_name": "Martes",
+    "time": "20:00",
+    "title_event": "Ciclo de Poesía",
+    "description": "Lecturas de poesía con autores locales.",
+    "price": "Entrada libre",
+    "category": "Literatura",
+    "month": "March"
+  },
+  {
+    "number_day": 7,
+    "week_day_name": "Jueves",
+    "time": "21:00",
+    "title_event": "Escenario Abierto",
+    "description": "Micro abierto para músicos y cantautores.",
+    "price": "Entrada libre",
+    "category": "Música",
+    "month": "March"
+  },
+  {
+    "number_day": 9,
+    "week_day_name": "Sábado",
+    "time": "21:30",
+    "title_event": "Teatro de Improvisación",
+    "description": "El extraño caso de las cosas, una historia creada en vivo.",
+    "price": "6€",
+    "category": "Teatro",
+    "month": "March"
+  },
+  {
+    "number_day": 12,
+    "week_day_name": "Martes",
+    "time": "19:30",
+    "title_event": "Debate Literario",
+    "description": "Análisis de la obra 'La Séptima Luna'.",
+    "price": "Entrada libre",
+    "category": "Debate",
+    "month": "March"
+  },
+  {
+    "number_day": 15,
+    "week_day_name": "Viernes",
+    "time": "20:00",
+    "title_event": "Jam de Poesía Temática",
+    "description": "Micro abierto sobre 'Los Siete Pecados Capitales'.",
+    "price": "Entrada libre",
+    "category": "Literatura",
+    "month": "March"
+  },
+  {
+    "number_day": 20,
+    "week_day_name": "Miércoles",
+    "time": "21:00",
+    "title_event": "Concierto de Lamaar",
+    "description": "Lamaar en formato acústico con 'Cantando Historias'.",
+    "price": "10€ con consumición",
+    "category": "Música",
+    "month": "March"
+  }
+]

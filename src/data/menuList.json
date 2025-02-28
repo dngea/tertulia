@@ -1,0 +1,120 @@
+{
+  "menu": {
+    "categories": [
+      {
+        "name": "Cerveza de Barril",
+        "products": [
+          {
+            "name": "Cerveza Lager",
+            "description": "Cerveza refrescante de sabor suave",
+            "price": "2.50",
+            "type": "Cerveza de Barril"
+          },
+          {
+            "name": "Cerveza IPA",
+            "description": "Cerveza amarga con un toque afrutado",
+            "price": "3.00",
+            "type": "Cerveza de Barril"
+          }
+        ]
+      },
+      {
+        "name": "Tercios",
+        "products": [
+          {
+            "name": "Cerveza Amstel",
+            "description": "Cerveza clásica, de sabor suave y refrescante",
+            "price": "1.80",
+            "type": "Tercio"
+          },
+          {
+            "name": "Cerveza Cruzcampo",
+            "description": "Cerveza de barril local con sabor ligeramente amargo",
+            "price": "2.00",
+            "type": "Tercio"
+          }
+        ]
+      },
+      {
+        "name": "Cervezas Artesanales",
+        "products": [
+          {
+            "name": "Cerveza Alhambra Reserva 1925",
+            "description": "Cerveza artesanal premium de Granada con cuerpo y sabor intenso",
+            "price": "3.50",
+            "type": "Cerveza Artesanal"
+          },
+          {
+            "name": "Cerveza Marenostrum",
+            "description": "Cerveza artesanal de sabor mediterráneo, fresca y ligera",
+            "price": "3.00",
+            "type": "Cerveza Artesanal"
+          }
+        ]
+      },
+      {
+        "name": "Cerveza Sin Alcohol",
+        "products": [
+          {
+            "name": "Cerveza Sin Alcohol Amstel",
+            "description": "Cerveza sin alcohol de sabor suave y refrescante",
+            "price": "2.00",
+            "type": "Cerveza Sin Alcohol"
+          },
+          {
+            "name": "Cerveza Cruzcampo Sin Alcohol",
+            "description": "Cerveza sin alcohol, refrescante con un toque ligeramente amargo",
+            "price": "2.00",
+            "type": "Cerveza Sin Alcohol"
+          }
+        ]
+      },
+      {
+        "name": "Refrescos",
+        "products": [
+          {
+            "name": "Coca Cola",
+            "description": "Refresco clásico y refrescante",
+            "price": "1.50",
+            "type": "Refresco"
+          },
+          {
+            "name": "Sprite",
+            "description": "Refresco con sabor a limón y burbujeas frescas",
+            "price": "1.50",
+            "type": "Refresco"
+          },
+          {
+            "name": "Agua Mineral",
+            "description": "Agua mineral refrescante",
+            "price": "1.00",
+            "type": "Refresco"
+          }
+        ]
+      },
+      {
+        "name": "Tapas",
+        "products": [
+          {
+            "name": "Frutos Secos",
+            "description": "Mezcla de frutos secos salados",
+            "price": "1.50",
+            "type": "Tapas"
+          },
+          {
+            "name": "Aceitunas",
+            "description": "Aceitunas verdes y negras, aliñadas al estilo andaluz",
+            "price": "1.50",
+            "type": "Tapas"
+          },
+          {
+            "name": "Patatas Fritas",
+            "description": "Patatas fritas de bolsa, perfectas para acompañar tu bebida",
+            "price": "1.00",
+            "type": "Tapas"
+          }
+        ]
+      }
+    ]
+  }
+}
