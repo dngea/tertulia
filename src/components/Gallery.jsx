@@ -1,4 +1,5 @@
 import Header from "./Header";
+import MainContent from "./MainContent";
 
 const images = 5;
 
@@ -23,11 +24,11 @@ const DisplayGallery = () => (
 
 export function Gallery() {
   return (
-    <main className="bg-light font-paragraph dn-scrollbar-hidden h-screen max-h-[calc(100vh-80px)] space-y-6 overflow-auto py-12">
+    <MainContent>
       <Header title="Gallery" hierarchy="h1" />
-      <section className="p-5">
+      <section>
         <DisplayGallery />
       </section>
-    </main>
+    </MainContent>
   );
 }

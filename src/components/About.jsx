@@ -1,5 +1,6 @@
 import React, { children } from "react";
 import Header from "./Header";
+import MainContent from "./MainContent";
 
 const Schedule = React.memo(({ days, hours }) => (
   <div className="grid grid-cols-2 gap-6">
@@ -18,10 +19,10 @@ const Schedule = React.memo(({ days, hours }) => (
 ));
 
 const Columns = ({ children }) => (
-  <section className="grid grid-cols-2 gap-8 px-5">{children}</section>
+  <section className="grid grid-cols-2 gap-8 space-y-4">{children}</section>
 );
 
-const HistorySection = () => (
+const HistoryText = () => (
   <article className="space-y-4">
     <p>
       El 19 de abril de 1980, España era un país muy distinto del que es hoy.
@@ -45,12 +46,12 @@ const HistorySection = () => (
 
 export function About() {
   return (
-    <main className="bg-light font-paragraph dn-scrollbar-hidden h-screen max-h-[calc(100vh-80px)] space-y-6 overflow-auto py-12">
+    <MainContent>
       <Header title="About Us" hierarchy="h1" />
 
       <Columns>
         <div className="space-y-8">
-          <article className="space-y-3">
+          <article className="space-y-2">
             <p>
               La Tertulia es un punto de referencia para la cultura de la ciudad
               de Granada. Inaugurado en 1980, ha sido un lugar de encuentro de
@@ -63,8 +64,8 @@ export function About() {
             </p>
           </article>
 
-          <article>
-            <Header title="Schedule" hierarchy="h3" padding="0" />
+          <article className="space-y-4">
+            <Header title="Schedule" hierarchy="h3" />
             <Schedule
               days={[
                 "Monday",
@@ -87,13 +88,12 @@ export function About() {
             />
           </article>
 
-          <article>
-            <Header title="Location" hierarchy="h3" padding="0" />
-            <address></address>
-            <p>
+          <article className="space-y-4">
+            <Header title="Location" hierarchy="h3" />
+            <address>
               La Tertulia, C. Pintor López Mezquita, 3, Ronda, 18002 Granada,
               España
-            </p>
+            </address>
           </article>
         </div>
 
@@ -106,7 +106,7 @@ export function About() {
         </figure>
       </Columns>
 
-      <figure>
+      <figure className="py-8">
         <img
           className="h-full w-full object-cover p-0"
           src="/img/5.jpg"
@@ -117,15 +117,15 @@ export function About() {
       <Header title="History" hierarchy="h2" />
 
       <Columns>
-        <HistorySection />
+        <HistoryText />
         <figure>
           <img
             className="h-full w-full object-cover grayscale-100"
             src="/img/2.jpg"
-            alt=""
+            alt="People sitting at tables inside the bar"
           />
         </figure>
       </Columns>
-    </main>
+    </MainContent>
   );
 }

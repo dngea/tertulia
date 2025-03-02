@@ -15,7 +15,7 @@ export function App() {
   };
 
   return (
-    <div className="box-border grid grid-cols-[5fr_3fr] grid-rows-[100px_auto_100px]">
+    <div className="box-border grid grid-cols-[5fr_3fr] grid-rows-[110px_auto_180px]">
       <Nav
         handleNavClick={handleNavClick}
         currentPageLeft={currentPageLeft}

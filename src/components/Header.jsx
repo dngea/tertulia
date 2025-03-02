@@ -1,4 +1,4 @@
-const Header = ({ title, hierarchy = "h1", padding = 5, color = "dark" }) => {
+const Header = ({ title, hierarchy = "h1", color = "dark" }) => {
   const tagToSize = {
     h1: "text-5xl",
     h2: "text-4xl",
@@ -12,7 +12,7 @@ const Header = ({ title, hierarchy = "h1", padding = 5, color = "dark" }) => {
   const size = tagToSize[Tag];
 
   return (
-    <header className={`flex w-full items-center px-${padding}`}>
+    <header className={`flex w-full items-center`}>
       <Tag className={`font-title font-medium ${size} text-${color} `}>
         {title}
       </Tag>
