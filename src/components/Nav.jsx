@@ -25,18 +25,20 @@ export function Nav({
           {isMenuOpen && (
             <nav className="bg-light fixed top-[110px] left-0 z-10 flex h-full w-full items-center justify-center">
               <ul className="flex translate-y-[-60px] flex-col justify-center space-y-12">
-                {["About", "Events", "Menu", "Gallery"].map((pageName, i) => (
-                  <li
-                    className={`hover:text-light hover:bg-primary w-fit cursor-pointer text-2xl text-[20px] ${uniquePage === pageName ? "border-primary text-primary border-b-2" : "text-dark"}`}
-                    key={i}
-                    onClick={() => {
-                      setIsMenuOpen(false);
-                      handleNavClick(pageName, "left");
-                    }}
-                  >
-                    {pageName}
-                  </li>
-                ))}
+                {["About us", "Events", "Menu", "Gallery"].map(
+                  (pageName, i) => (
+                    <li
+                      className={`hover:text-light hover:bg-primary w-fit cursor-pointer text-2xl text-[20px] ${uniquePage === pageName ? "border-primary text-primary border-b-2" : "text-dark"}`}
+                      key={i}
+                      onClick={() => {
+                        setIsMenuOpen(false);
+                        handleNavClick(pageName, "left");
+                      }}
+                    >
+                      {pageName}
+                    </li>
+                  ),
+                )}
               </ul>
             </nav>
           )}
@@ -44,7 +46,7 @@ export function Nav({
       ) : (
         <>
           <ul className="text-dark text-1xl font-title font-regular flex gap-4">
-            {["About", "Gallery"].map((pageName, i) => (
+            {["About us", "Gallery"].map((pageName, i) => (
               <li
                 key={i}
                 className={`hover:text-light hover:bg-primary cursor-pointer text-[20px] ${currentPageLeft === pageName ? "border-primary text-primary border-b-2" : "text-dark"}`}

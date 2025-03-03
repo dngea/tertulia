@@ -7,9 +7,9 @@ import { Gallery } from "./components/Gallery";
 import { Menu } from "./components/Menu";
 
 export function App() {
-  const [currentPageLeft, setCurrentPageLeft] = useState("About");
+  const [currentPageLeft, setCurrentPageLeft] = useState("About us");
   const [currentPageRight, setCurrentPageRight] = useState("Events");
-  const [uniquePage, setUniquePage] = useState("About");
+  const [uniquePage, setUniquePage] = useState("About us");
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1000); // condition returns true or false (e.g isMobile? -> False)
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export function App() {
   const handleNavClick = (page, side) => {
     if (isMobile) {
       setUniquePage(page);
-      if (["About", "Gallery"].includes(page)) {
+      if (["About us", "Gallery"].includes(page)) {
         setCurrentPageLeft(page);
       }
     } else {
@@ -45,14 +45,14 @@ export function App() {
 
       {isMobile ? (
         <>
-          {uniquePage === "About" && <About />}
+          {uniquePage === "About us" && <About />}
           {uniquePage === "Events" && <Events />}
           {uniquePage === "Gallery" && <Gallery />}
           {uniquePage === "Menu" && <Menu />}
         </>
       ) : (
         <>
-          {currentPageLeft === "About" && <About />}
+          {currentPageLeft === "About us" && <About />}
           {currentPageLeft === "Gallery" && <Gallery />}
 
           {currentPageRight === "Menu" && <Menu />}
